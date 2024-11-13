@@ -1,0 +1,14 @@
+type Sitemap @table(database: "siteperformance") @sealed @export {
+	url: String @primaryKey
+	lastModified: Date
+	indexed: Date
+}
+
+type Pagebank @table(database: "siteperformance") @sealed @export {
+	url: String @primaryKey
+	content: String
+	earlyHint: String
+	redirectUrl: String
+	redirectType: Int
+	updatedDate: Date
+}

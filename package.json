@@ -1,0 +1,14 @@
+{
+	"name": "site-performance",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "A HarperDB component that dynamically pre-renders html pages from an origin based on the entries in that site's sitemap.xml",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"prerender": "^5.21.6",
+		"sitemapper": "^3.2.18"
+	}
+}
