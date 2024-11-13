@@ -17,7 +17,7 @@ Next:
 
 ## Using The Component
 
-Thew component exports 2 endpoints:
+This component exports 2 endpoints:
 
 ### GET /pagebank
 
