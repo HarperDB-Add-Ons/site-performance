@@ -31,6 +31,7 @@ Accepts a `url` parameter and either delivers the content for that page, or kick
 - https://localhost:9926/pagebank?url=https://www.harperdb.io/solutions/digital-commerce
 
 #### @TODO
+- We should accommodate a hash of the URL to avoid issues with query parameters
 - The url of the hero image should be extracted from the rendered HTML and set as the `earlyHint` value
 - Add a background process to crawl pages based on the flag set in the Sitemap table
 - Employ queue/worker logic to allow for multiple threads to work through the render backlog
@@ -40,6 +41,7 @@ Accepts a `url` parameter and either delivers the content for that page, or kick
 Accepts a `url` parameter for a site's `sitemap.xml` and inserts all the records into the Sitemap table. 
 
 #### @TODO
+- We should accommodate a hash of the URL to avoid issues with query parameters
 - This table should be used as the input for the pagebank crawl process.
 - Add the ability to crawl a specified sitemap on an interval
 - Add the ability to handle recursive sitemaps
